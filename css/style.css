@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro&display=swap');
+@import url(components/banner.css);
+@import url(components/nav.css);
+@import url(components/services.css);
+@import url(components/table.css);
+@import url(components/nav.css);
+@import url(components/form.css);
+@import url(components/about.css);
+@import url(components/contacts.css);
+
+body {
+	height: 100vh;
+	width: 700px;
+	margin: 0px auto;
+	color: #da0b0b;
+	font-size: 24px;
+
+}
+
+
+
+/*h2 {
+	text-align: center;
+	color: #da0b0b;
+}*/
+
+img {
+	width: 250px;
+	margin-bottom: 0px;
+}
+
+p {
+	color: #666666;
+}
+
+@media (max-width: 900px){
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px){
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px){
+	.container{
+		width: 300px;
+	}
+}
+
+@media all and (max-width: 540px) {
+	body {
+		flex-direction: column;
+	}
+}
